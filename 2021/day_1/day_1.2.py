@@ -22,8 +22,6 @@ for i in range(start, end):
   if previousWindow < window:
     print(f'window: {lines[i-1]} + {lines[i]} + {lines[i+1]} \n ++')
     increaseCount += 1
-  # elif previousLine > line:
-  #   print(f'{previousLine} > {line} 0')
 
   previousWindow = window
   print(increaseCount)
